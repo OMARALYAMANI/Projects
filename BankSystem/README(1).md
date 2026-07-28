@@ -30,15 +30,9 @@ A feature-rich **Bank Management System** built with **C++**, demonstrating file
 - 📂 Project Structure
 - 🔐 Permission System
 - 💾 Data Storage
-- ⚙️ Getting Started
-- 🚀 Running the Project
-- 📋 Application Flow
 - 🌟 Implementation Highlights
 - 🚀 Future Improvements
 - 🤝 Contributing
-- 📄 License
-- 👨‍💻 Author
-
 ---
 
 # 📖 Overview
@@ -122,7 +116,7 @@ Create an `images/` folder and replace these placeholders with screenshots.
 
 | Technology | Purpose |
 |------------|---------|
-| C++11 | Core programming language |
+| C++ | Core programming language |
 | STL | Containers & algorithms |
 | fstream | File persistence |
 | Bitwise Operations | Permission management |
@@ -177,58 +171,6 @@ Username#//#Password#//#Permission
 
 ---
 
-# ⚙️ Getting Started
-
-## Prerequisites
-
-- C++11 compiler or newer
-- GCC, MSVC, or Clang
-- Windows OS
-
-## Clone
-
-```bash
-git clone https://github.com/OMARALYAMANI/Bank-System.git
-cd Bank-System
-```
-
-## Build
-
-```bash
-g++ BankSystemFile.cpp -o BankSystem
-```
-
----
-
-# 🚀 Running the Project
-
-```bash
-BankSystem.exe
-```
-
-Administrator credentials:
-
-```text
-Username: Admin
-Password: 1234
-```
-
----
-
-# 📋 Application Flow
-
-```text
-Login
-   │
-   ▼
-Main Menu
-   ├── Client Management
-   ├── Transactions
-   └── Manage Users
-```
-
----
-
 # 🌟 Implementation Highlights
 
 - ✅ Modular architecture using 70+ functions
@@ -259,25 +201,6 @@ Main Menu
 This repository was created as a personal portfolio project.
 
 Pull requests for bug fixes, performance improvements, and new features are welcome.
-
----
-
-# 📄 License
-
-This project is released under the **MIT License**.
-
----
-
-# 👨‍💻 Author
-
-**Omar Alyamani**
-
-🎓 Software Engineering Student  
-King Fahd University of Petroleum and Minerals (KFUPM)
-
-- 📧 alyamaniomar820@gmail.com
-- 💼 https://www.linkedin.com/in/omar-alyamani-81b2193bb/
-- 🐙 https://github.com/OMARALYAMANI
 
 ---
 
