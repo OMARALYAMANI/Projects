@@ -99,8 +99,6 @@ This project demonstrates:
 
 # 🖼️ Screenshots
 
-Create an `images/` folder and replace these placeholders with screenshots.
-
 | Login | Main Menu |
 |--------|-----------|
 | ![](images/login.png) | ![](images/main-menu.png) |
