@@ -1,1 +1,286 @@
+# Bank Management System
 
+A console-based **Bank Management System** developed in **C++** to demonstrate fundamental software engineering principles, modular programming, file handling, and role-based access control.
+
+The project simulates a real-world banking environment where authorized employees manage client accounts, perform financial transactions, and administer system users. It emphasizes clean program organization through functional decomposition and demonstrates practical use of file persistence, bitwise operations, and structured programming.
+
+---
+
+## Features
+
+### Authentication & Authorization
+- Secure login system with username and password authentication.
+- Role-based access control (RBAC) using **binary (bitwise) permissions**.
+- Administrators can grant or revoke access to individual system features.
+- Unauthorized access attempts display an appropriate access denied message.
+
+### Client Management
+- Display all registered clients.
+- Add new clients.
+- Update existing client information.
+- Delete client accounts.
+- Search for clients using account numbers.
+
+### Transactions
+- Deposit funds into client accounts.
+- Withdraw funds with balance validation.
+- Display individual client balances.
+- Calculate and display the total balance across all bank accounts.
+
+### User Management
+- List system users.
+- Add new users.
+- Update user information.
+- Delete users (excluding the administrator account).
+- Search users by username.
+- Assign feature-specific permissions during user creation or update.
+
+### Data Persistence
+- Stores client and user records in text files.
+- Loads all data automatically when the application starts.
+- Saves modifications immediately after each operation.
+
+---
+
+## Technologies
+
+| Technology | Purpose |
+|------------|---------|
+| C++ | Core programming language |
+| Standard Template Library (STL) | Vectors, strings, algorithms, file handling |
+| File Streams (`fstream`) | Persistent data storage |
+| Bitwise Operations | Permission management |
+| Console I/O | User interaction |
+
+No external libraries or frameworks are required.
+
+---
+
+## Project Structure
+
+```
+Bank-System/
+│
+├── BankSystemFile.cpp          # Main application source code
+├── CLients Bank System.txt     # Client database
+├── Users Bank System.txt       # User database
+└── README.md
+```
+
+### File Descriptions
+
+| File | Description |
+|------|-------------|
+| `BankSystemFile.cpp` | Contains all application logic including authentication, client management, transactions, and user management. |
+| `CLients Bank System.txt` | Stores client records in a custom text format. |
+| `Users Bank System.txt` | Stores user credentials and permission values. |
+
+---
+
+## Permission System
+
+The project implements a **Role-Based Access Control (RBAC)** mechanism using binary permissions.
+
+Each feature is represented by a single bit:
+
+| Permission | Value |
+|------------|------:|
+| Show Client List | 1 |
+| Add Client | 2 |
+| Delete Client | 4 |
+| Update Client | 8 |
+| Find Client | 16 |
+| Transactions | 32 |
+| Manage Users | 64 |
+| Full Access | -1 |
+
+Permissions are combined using bitwise operations, allowing administrators to assign multiple privileges efficiently while minimizing storage requirements.
+
+---
+
+## Data Storage
+
+Client records are stored in the following format:
+
+```
+AccountNumber#//#PinCode#//#Name#//#Phone#//#Balance
+```
+
+Example:
+
+```
+A150#//#1111#//#John Smith#//#0531234567#//#25000.00
+```
+
+User records are stored as:
+
+```
+Username#//#Password#//#Permission
+```
+
+Example:
+
+```
+Admin#//#1234#//#-1
+```
+
+---
+
+## Prerequisites
+
+Before running the project, ensure you have:
+
+- C++11 compiler or newer
+  - GCC
+  - MSVC
+  - Clang
+- Windows operating system (the project uses `system("cls")` and `system("pause")`)
+
+No additional libraries are required.
+
+---
+
+## Build Instructions
+
+### Using g++
+
+```bash
+g++ BankSystemFile.cpp -o BankSystem
+```
+
+### Using Microsoft Visual Studio
+
+1. Create a new Console Application.
+2. Add `BankSystemFile.cpp` to the project.
+3. Build the solution.
+4. Ensure both data files are located in the executable directory.
+
+---
+
+## Running the Application
+
+Execute the program:
+
+```bash
+./BankSystem
+```
+
+or on Windows:
+
+```cmd
+BankSystem.exe
+```
+
+The application begins with a login screen.
+
+Example administrator credentials:
+
+```
+Username: Admin
+Password: 1234
+```
+
+---
+
+## Main Menu
+
+```
+1. Show Client List
+2. Add New Client
+3. Delete Client
+4. Update Client Info
+5. Find Client
+6. Transactions
+7. Manage Users
+8. Logout
+```
+
+### Transactions Menu
+
+```
+1. Deposit
+2. Withdraw
+3. Total Balances
+4. Main Menu
+```
+
+### Manage Users Menu
+
+```
+1. List Users
+2. Add New User
+3. Delete User
+4. Update User
+5. Find User
+6. Main Menu
+```
+
+---
+
+## Implementation Highlights
+
+- Functional decomposition using more than 70 modular functions.
+- Custom record serialization and deserialization.
+- Persistent file-based database.
+- Bitwise permission checking.
+- Menu-driven architecture.
+- Validation for duplicate users and client accounts.
+- Balance validation before withdrawals.
+- Protection against deleting the administrator account.
+
+---
+
+## Future Improvements
+
+Potential enhancements include:
+
+- Object-Oriented Design (Classes)
+- Database integration (SQLite or MySQL)
+- Password hashing
+- Exception handling
+- Transaction history
+- Account transfer functionality
+- Interest calculation
+- Unit testing
+- Cross-platform support
+- Graphical User Interface (Qt or Flutter)
+
+---
+
+## Contributing
+
+This project was developed primarily as a personal learning project and portfolio demonstration.
+
+Contributions are welcome through pull requests for:
+
+- Bug fixes
+- Performance improvements
+- Code refactoring
+- Feature enhancements
+
+Please ensure that submitted code follows consistent formatting and maintains readability and modularity.
+
+---
+
+## License
+
+This project is released under the **MIT License**.
+
+You are free to use, modify, and distribute this software provided that the original copyright notice and license are included in any substantial portions of the project.
+
+---
+
+## Author
+
+**Omar Alyamani**
+
+Software Engineering Student  
+King Fahd University of Petroleum and Minerals (KFUPM)
+
+GitHub: https://github.com/OMARALYAMANI
+
+LinkedIn: https://www.linkedin.com/in/omar-alyamani-81b2193bb/
+
+---
+
+If you found this project interesting, consider giving it a ⭐ on GitHub.
