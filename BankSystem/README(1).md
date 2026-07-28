@@ -9,7 +9,6 @@ A feature-rich **Bank Management System** built with **C++**, demonstrating file
 
 ![C++](https://img.shields.io/badge/C%2B%2B-11-blue?logo=c%2B%2B)
 ![Platform](https://img.shields.io/badge/Platform-Windows-success)
-![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Console](https://img.shields.io/badge/Application-Console-orange)
 
