@@ -67,7 +67,7 @@ The proposed system enables students to:
 
 🎨 **View the Figma Prototype**
 
-👉 **[Figma]([https://drive.google.com/drive/folders/1FeWhKfKZNdKFI7ZuzaX8Z8P7QXmC7ZtI?hl=ar](https://www.figma.com/design/wYKf06J97OHEi9J6G2Ys7o/SWE206-Project?node-id=24-511&p=f&t=1L5MCWwhHeAgNtp5-0))**
+👉 **[Figma](https://www.figma.com/design/wYKf06J97OHEi9J6G2Ys7o/SWE206-Project?node-id=24-511&p=f&t=1L5MCWwhHeAgNtp5-0)**
 
 ---
 
