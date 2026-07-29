@@ -40,15 +40,6 @@ The project emphasizes the **Requirements Engineering lifecycle**, including sta
 
 ---
 
-# 🛠 Tools & Technologies
-
-- 📄 Software Requirements Specification (SRS)
-- 📐 UML
-- 🎨 Figma
-- 💡 Requirements Engineering Principles
-
----
-
 # 📂 Repository Contents
 
 This repository includes:
@@ -57,6 +48,7 @@ This repository includes:
 - 📐 UML Diagrams
 - 🎨 Interactive Figma Prototype
 - 📑 Supporting project documentation
+- 💡 Requirements Engineering Principles
 
 ---
 
@@ -74,8 +66,6 @@ The proposed system enables students to:
 # 🔗 Interactive Prototype
 
 🎨 **View the Figma Prototype**
-
-> Replace this link with your Figma project.
 
 ```text
 https://www.figma.com/...
@@ -96,20 +86,6 @@ This project demonstrates practical experience in:
 
 ---
 
-# 👨‍💻 Author
-
-**Omar Alyamani**
-
-🎓 Software Engineering Student  
-King Fahd University of Petroleum and Minerals (KFUPM)
-
-- 🐙 GitHub: https://github.com/OMARALYAMANI
-- 💼 LinkedIn: https://www.linkedin.com/in/omar-alyamani-81b2193bb/
-
----
-
 <div align="center">
-
-### ⭐ If you found this project interesting, consider giving it a star!
 
 </div>
