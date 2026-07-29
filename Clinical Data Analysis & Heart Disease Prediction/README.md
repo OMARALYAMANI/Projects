@@ -50,23 +50,20 @@ The goal of this repository is to showcase practical experience with **data prep
 
 The complete implementation is available in:
 
-```text
+
 ProjectFile.ipynb
-```
 
 The notebook is fully documented and walks through every stage of the machine learning pipeline, including data exploration, preprocessing decisions, model development, and performance evaluation.
+
+here is the link that contains all the documents:
+```text
+[ProjectFile.ipynb](https://drive.google.com/drive/folders/1FeWhKfKZNdKFI7ZuzaX8Z8P7QXmC7ZtI?hl=ar)
+```
 
 ---
 
 ## 🎯 Project Goal
 
-This repository was developed as a personal project to strengthen practical machine learning skills and demonstrate an end-to-end predictive analytics workflow using Python's data science ecosystem.
+This repository was developed as a university team project to strengthen practical machine learning skills and demonstrate an end-to-end predictive analytics workflow using Python's data science ecosystem.
 
 ---
-
-## 👨‍💻 Author
-
-**Omar Alyamani**
-
-- 💼 LinkedIn: https://www.linkedin.com/in/omar-alyamani-81b2193bb/
-- 🐙 GitHub: https://github.com/OMARALYAMANI
