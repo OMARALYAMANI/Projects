@@ -57,7 +57,7 @@ The notebook is fully documented and walks through every stage of the machine le
 
 here is the link that contains all the documents:
 ```text
-[ProjectFile.ipynb](https://drive.google.com/drive/folders/1FeWhKfKZNdKFI7ZuzaX8Z8P7QXmC7ZtI?hl=ar)
+https://drive.google.com/drive/folders/1FeWhKfKZNdKFI7ZuzaX8Z8P7QXmC7ZtI?hl=ar
 ```
 
 ---
